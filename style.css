@@ -14,3 +14,20 @@ body {
   align-items: center;
   margin: 0;
 }
+.calculator {
+  background: whitesmoke;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.6);
+  margin: 0;
+}
+
+/* Display */
+.calculator-display {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 12px 12px 0 0;
+}
