@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
 
-html {
+* {
+  padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 body {
-  margin: 0;
+  background: linear-gradient(to right, #45b649, #dce35b);
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
