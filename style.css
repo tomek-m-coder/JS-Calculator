@@ -31,3 +31,11 @@ body {
   justify-content: flex-end;
   border-radius: 12px 12px 0 0;
 }
+.calculator-display h1 {
+  margin: 0;
+  padding: 25px;
+  font-size: 45px;
+  font-weight: 100;
+  overflow-x: auto;
+  letter-spacing: 0.13rem;
+}
