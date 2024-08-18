@@ -7,7 +7,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #45b649, #dce35b);
+  background: linear-gradient(to right, #c5ffc7, #f4fd44);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -38,4 +38,21 @@ body {
   font-weight: 100;
   overflow-x: auto;
   letter-spacing: 0.13rem;
+}
+/* Custom Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
